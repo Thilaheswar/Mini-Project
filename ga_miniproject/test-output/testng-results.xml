@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-04T22:47:54 IST" name="Default suite" finished-at="2025-02-04T22:48:28 IST" duration-ms="34040">
+    <groups>
+    </groups>
+    <test started-at="2025-02-04T22:47:54 IST" name="Default test" finished-at="2025-02-04T22:48:28 IST" duration-ms="34040">
+      <class name="com.cts.tests.Tests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cts.tests.Tests@2ea41516]" started-at="2025-02-04T22:47:54 IST" name="setUp" finished-at="2025-02-04T22:48:13 IST" duration-ms="19519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearchFunctionality()[pri:0, instance:com.cts.tests.Tests@2ea41516]" started-at="2025-02-04T22:48:13 IST" name="testSearchFunctionality" finished-at="2025-02-04T22:48:20 IST" duration-ms="6828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testPriceFilterFunctionality()[pri:0, instance:com.cts.tests.Tests@2ea41516]" started-at="2025-02-04T22:48:20 IST" name="testPriceFilterFunctionality" finished-at="2025-02-04T22:48:24 IST" depends-on-methods="com.cts.tests.Tests.testSearchFunctionality" duration-ms="3613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPriceFilterFunctionality -->
+        <test-method signature="testProductDataExtraction()[pri:0, instance:com.cts.tests.Tests@2ea41516]" started-at="2025-02-04T22:48:24 IST" name="testProductDataExtraction" finished-at="2025-02-04T22:48:24 IST" depends-on-methods="com.cts.tests.Tests.testPriceFilterFunctionality" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductDataExtraction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cts.tests.Tests@2ea41516]" started-at="2025-02-04T22:48:24 IST" name="tearDown" finished-at="2025-02-04T22:48:28 IST" duration-ms="3866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cts.tests.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
